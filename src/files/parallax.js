@@ -1,4 +1,3 @@
-
 if (!window.console) console = { log: function () { } };
 
 
@@ -36,5 +35,22 @@ function parallaxScroll(){
         var n = 0 - scrolled * $(this).attr('data-speed-y');
         return n + 'px';
     });
+    
+    
+//    $('.center').css({ 'position': 'fixed', 'width': contentWidth + 'px'
+//        , 'left': function () { return ($(window).width() / 2) - (contentWidth / 2); }
+//    }); 
+//    $('.rotate').each(function () {
+//        var scroll = parseFloat(hotSpots[$(this).attr('data-frame')]); 
+//        $(this).rotate((scrolled - scroll) / 3);
+//    });
+//    $('.fade').css({ 'opacity': function () {
+//        var scroll = parseFloat(hotSpots[$(this).attr('data-frame')]);
+//        var r = (Math.cos(((scrolled - scroll)/700) )+ 1) / 2 ;  
+//        console.log(r);
+//        return r;
+//    }
+//    }); 
+
 }
  
